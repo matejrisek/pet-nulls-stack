@@ -48,3 +48,10 @@ component "nulls" {
     null = provider.null.this
   }
 }
+
+component "petz" {
+  source = "github.com/matejrisek/pet-only"
+  inputs = {
+    prefix = var.prefix
+  }
+}
