@@ -54,4 +54,8 @@ component "petz" {
   inputs = {
     prefix = var.prefix
   }
+
+  providers = {
+    null = provider.null.this
+  }
 }
