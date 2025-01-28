@@ -49,9 +49,9 @@ component "nulls" {
   }
 }
 
-component "petz" {
-  source = "github.com/matejrisek/pet-only"
-  inputs = {
-    prefix = var.prefix
-  }
-}
+# component "petz" {
+#   source = "github.com/matejrisek/pet-only"
+#   inputs = {
+#     prefix = var.prefix
+#   }
+# }
