@@ -49,7 +49,7 @@ component "nulls" {
   }
 }
 
-component "petzX" {
+component "petzX2" {
   source = "github.com/matejrisek/pet-only"
   inputs = {
     prefix = var.prefix
