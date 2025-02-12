@@ -51,7 +51,7 @@ component "nulls" {
 
 component "petz2" {
   #source = "github.com/matejrisek/pet-only"
-  source = "git@github.com:matejrisek/pet-only.git"
+  source = "git:ssh://git@github.com:matejrisek/pet-only.git"
   inputs = {
     prefix = var.prefix
   }
