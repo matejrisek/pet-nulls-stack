@@ -50,7 +50,8 @@ component "nulls" {
 }
 
 component "petz2" {
-  source = "github.com/matejrisek/pet-only"
+  #source = "github.com/matejrisek/pet-only"
+  source = "ssh://git@github.com:matejrisek/pet-only.git"
   inputs = {
     prefix = var.prefix
   }
