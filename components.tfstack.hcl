@@ -49,14 +49,14 @@ component "nulls" {
   }
 }
 
-component "petz2" {
-  #source = "github.com/matejrisek/pet-only"
-  source = "git::ssh://github.com/matejrisek/pet-only.git"
-  inputs = {
-    prefix = var.prefix
-  }
-
-  providers = {
-    null = provider.null.this
-  }
-}
+#component "petz2" {
+#  #source = "github.com/matejrisek/pet-only"
+#  source = "git::ssh://github.com/matejrisek/pet-only.git"
+#  inputs = {
+#    prefix = var.prefix
+#  }
+#
+#  providers = {
+#    null = provider.null.this
+#  }
+#}
