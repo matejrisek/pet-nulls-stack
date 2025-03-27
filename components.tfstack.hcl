@@ -24,7 +24,7 @@ required_providers {
 provider "random" "this" {}
 provider "null" "this" {}
 
-component "pet" {
+component "petz" {
   source = "./pet"
 
   inputs = {
