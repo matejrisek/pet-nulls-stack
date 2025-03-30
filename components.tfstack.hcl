@@ -54,7 +54,7 @@ removed {
 
   from = component.petz
   providers = {
-    null = provider.null.this
+    random = provider.random.this
   }
 }
 
