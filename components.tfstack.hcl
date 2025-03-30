@@ -50,10 +50,11 @@ component "nulls" {
 }
 
 removed {
-  from = nulls
+  source = "./pet"
 
-  lifecycle {
-    destroy = false
+  from = component.petz
+  providers = {
+    null = provider.null.this
   }
 }
 
