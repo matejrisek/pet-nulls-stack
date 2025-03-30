@@ -49,6 +49,14 @@ component "nulls" {
   }
 }
 
+removed {
+  from = nulls
+
+  lifecycle {
+    destroy = false
+  }
+}
+
 #component "petz2" {
 #  #source = "github.com/matejrisek/pet-only"
 #  source = "git::ssh://github.com/matejrisek/pet-only.git"
