@@ -36,7 +36,7 @@ component "pet" {
   }
 }
 
-component "nulls" {
+component "nullsA" {
   source = "./nulls"
 
   inputs = {
