@@ -50,11 +50,10 @@ component "nullsA" {
 }
 
 removed {
-  source = "./pet"
+  source = "./nulls"
 
-  from = component.petz
+  from = component.nulls
   providers = {
-    random = provider.random.this
     null = provider.null.this
   }
 }
