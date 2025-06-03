@@ -36,7 +36,7 @@ component "pet" {
   }
 }
 
-component "nullsA" {
+component "nulls" {
   source = "./nulls"
 
   inputs = {
@@ -52,7 +52,7 @@ component "nullsA" {
 removed {
   source = "./nulls"
 
-  from = component.nulls
+  from = component.nullsA
   providers = {
     null = provider.null.this
   }
